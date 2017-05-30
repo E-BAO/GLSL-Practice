@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AC78061EDD5D4900D1E72A /* ogl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AC78031EDD5D4900D1E72A /* ogl3.cpp */; };
+		23AC78071EDD5D4900D1E72A /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AC78041EDD5D4900D1E72A /* textfile.cpp */; };
+		23FE83AE1ECDCF0000E04AB9 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FE83AD1ECDCF0000E04AB9 /* libGLEW.2.0.0.dylib */; };
+		56704B231A3E9192000C1A4E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56704B221A3E9192000C1A4E /* GLUT.framework */; };
+		56704B251A3E919A000C1A4E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56704B241A3E919A000C1A4E /* OpenGL.framework */; };
+		56704B2A1A3E94AD000C1A4E /* pixel.frag in Copy Files */ = {isa = PBXBuildFile; fileRef = 56704B191A3E90F9000C1A4E /* pixel.frag */; };
+		56704B2B1A3E94AD000C1A4E /* pixel.vert in Copy Files */ = {isa = PBXBuildFile; fileRef = 56704B1A1A3E90F9000C1A4E /* pixel.vert */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56704B0C1A3E904F000C1A4E /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				56704B2A1A3E94AD000C1A4E /* pixel.frag in Copy Files */,
+				56704B2B1A3E94AD000C1A4E /* pixel.vert in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23AC78031EDD5D4900D1E72A /* ogl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ogl3.cpp; path = "Pixel Lighting/ogl3.cpp"; sourceTree = SOURCE_ROOT; };
+		23AC78041EDD5D4900D1E72A /* textfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = textfile.cpp; path = "Pixel Lighting/textfile.cpp"; sourceTree = SOURCE_ROOT; };
+		23AC78051EDD5D4900D1E72A /* textfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textfile.h; path = "Pixel Lighting/textfile.h"; sourceTree = SOURCE_ROOT; };
+		23FE83AD1ECDCF0000E04AB9 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../../../../usr/local/Cellar/glew/2.0.0/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		56704B0E1A3E904F000C1A4E /* Pixel Lighting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pixel Lighting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56704B191A3E90F9000C1A4E /* pixel.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pixel.frag; sourceTree = "<group>"; };
+		56704B1A1A3E90F9000C1A4E /* pixel.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = pixel.vert; sourceTree = "<group>"; };
+		56704B221A3E9192000C1A4E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		56704B241A3E919A000C1A4E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56704B0B1A3E904F000C1A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FE83AE1ECDCF0000E04AB9 /* libGLEW.2.0.0.dylib in Frameworks */,
+				56704B231A3E9192000C1A4E /* GLUT.framework in Frameworks */,
+				56704B251A3E919A000C1A4E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FE83AC1ECDCF0000E04AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23FE83AD1ECDCF0000E04AB9 /* libGLEW.2.0.0.dylib */,
+				56704B241A3E919A000C1A4E /* OpenGL.framework */,
+				56704B221A3E9192000C1A4E /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56704B051A3E904F000C1A4E = {
+			isa = PBXGroup;
+			children = (
+				56704B181A3E90E1000C1A4E /* Resources */,
+				56704B101A3E904F000C1A4E /* Pixel Lighting */,
+				56704B0F1A3E904F000C1A4E /* Products */,
+				23FE83AC1ECDCF0000E04AB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56704B0F1A3E904F000C1A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56704B0E1A3E904F000C1A4E /* Pixel Lighting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56704B101A3E904F000C1A4E /* Pixel Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				23AC78031EDD5D4900D1E72A /* ogl3.cpp */,
+				23AC78041EDD5D4900D1E72A /* textfile.cpp */,
+				23AC78051EDD5D4900D1E72A /* textfile.h */,
+			);
+			name = "Pixel Lighting";
+			path = "Vertex Lighting";
+			sourceTree = "<group>";
+		};
+		56704B181A3E90E1000C1A4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56704B191A3E90F9000C1A4E /* pixel.frag */,
+				56704B1A1A3E90F9000C1A4E /* pixel.vert */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56704B0D1A3E904F000C1A4E /* Pixel Lighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56704B151A3E904F000C1A4E /* Build configuration list for PBXNativeTarget "Pixel Lighting" */;
+			buildPhases = (
+				56704B0A1A3E904F000C1A4E /* Sources */,
+				56704B0B1A3E904F000C1A4E /* Frameworks */,
+				56704B0C1A3E904F000C1A4E /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pixel Lighting";
+			productName = OpenGLTestHelloWorld;
+			productReference = 56704B0E1A3E904F000C1A4E /* Pixel Lighting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56704B061A3E904F000C1A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "zero wilson";
+				TargetAttributes = {
+					56704B0D1A3E904F000C1A4E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 56704B091A3E904F000C1A4E /* Build configuration list for PBXProject "Pixel Lighting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56704B051A3E904F000C1A4E;
+			productRefGroup = 56704B0F1A3E904F000C1A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56704B0D1A3E904F000C1A4E /* Pixel Lighting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56704B0A1A3E904F000C1A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AC78071EDD5D4900D1E72A /* textfile.cpp in Sources */,
+				23AC78061EDD5D4900D1E72A /* ogl3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56704B131A3E904F000C1A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56704B141A3E904F000C1A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		56704B161A3E904F000C1A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(glew_header)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					"$(glew_lib)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-writable-strings",
+					"-Wno-unused-variable",
+					"-Wno-shorten-64-to-32",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Debug;
+		};
+		56704B171A3E904F000C1A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(glew_header)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					"$(glew_lib)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-writable-strings",
+					"-Wno-unused-variable",
+					"-Wno-shorten-64-to-32",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56704B091A3E904F000C1A4E /* Build configuration list for PBXProject "Pixel Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56704B131A3E904F000C1A4E /* Debug */,
+				56704B141A3E904F000C1A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56704B151A3E904F000C1A4E /* Build configuration list for PBXNativeTarget "Pixel Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56704B161A3E904F000C1A4E /* Debug */,
+				56704B171A3E904F000C1A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56704B061A3E904F000C1A4E /* Project object */;
+}
